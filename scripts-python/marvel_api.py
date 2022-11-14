@@ -91,22 +91,20 @@ def createTables():
 
     cnn.executeDDL(sql)    
 
-#Tratar alguns caracteres com podem ocasionar erros ao inserir dados no banco MySQL
+#Tratar alguns caracteres que podem ocasionar erros ao inserir dados no banco MySQL
 def resolveSpecialString(s):
     if s is None:
         return ""
     if s is not None or s != "" or s is not None:
         return s.replace('\"','\\"') \
                 .replace('\r','') 
-                #.replace('File','') \
-                #.replace('Dogs','') 
 
 #Pegar os dados de Characters
 def getCharactersAPI():
 
     limit = 100
     offset = 0
-    interactions = range(10)
+    interactions = range(50)
 
     ts = str(time.time())
     key_api_marvel = (ts + PRIVATE_KEY + PUBLIC_KEY).encode("UTF-8")
@@ -175,7 +173,7 @@ def getComicsAPI():
 
     limit = 100
     offset = 0
-    interactions = range(10)
+    interactions = range(50)
 
     ts = str(time.time())
     key_api_marvel = (ts + PRIVATE_KEY + PUBLIC_KEY).encode("UTF-8")
