@@ -260,7 +260,6 @@ def aggregateCharactersAndComics():
                 , c.title        AS title_comic
                 , c.formatt 
             FROM `characters` ch INNER JOIN comics c ON ch.id = c.characterId 
-            WHERE c.id = 103371
             GROUP BY ch.id 
                 , ch.name
                 , ch.description
