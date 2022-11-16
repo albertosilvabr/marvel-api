@@ -4,7 +4,7 @@
 
 - [Objetivo](https://github.com/albertosilvabr/marvel-api#objetivo)
 - [Contexto da solução](https://github.com/albertosilvabr/marvel-api#contexto-da-solu%C3%A7%C3%A3o)
-- [Desenho arquitetural da solução](https://github.com/albertosilvabr/marvel-api/edit/main/README.md#desenho-arquitetural-da-solu%C3%A7%C3%A3o)
+- [Desenho arquitetural da solução](https://github.com/albertosilvabr/marvel-api#desenho-arquitetural-da-solu%C3%A7%C3%A3o)
 - [Pré-requisitos](https://github.com/albertosilvabr/marvel-api#pr%C3%A9-requisitos)
 - [Passos para subir os serviços necessários para o teste](https://github.com/albertosilvabr/marvel-api#passos-para-subir-os-servi%C3%A7os-necess%C3%A1rios-para-o-teste)
 
