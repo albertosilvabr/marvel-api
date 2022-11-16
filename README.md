@@ -23,7 +23,9 @@ para buscar e processar os dados requisitados
 
 ### Desenho arquitetural da solução
 
-![arquitetura](https://user-images.githubusercontent.com/16995695/202263435-dd776e2f-06f4-4b81-96fd-dc3f477895c0.png)
+<div align="center">
+        <img src="https://user-images.githubusercontent.com/16995695/202265554-68bf7472-cb68-4ec6-8a35-776e38a1e67d.png" />
+</div>
 
 
 ### Pré-requisitos
