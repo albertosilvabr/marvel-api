@@ -46,12 +46,12 @@ $ git clone https://github.com/albertosilvabr/marvel-api.git
 $ cd marvel-api
 $ make start-mysql
 ```
-2. Build da imagem contendo a linguagem de programação Python
+3. Build da imagem contendo a linguagem de programação Python
 ```sh
 $ make build-python
 ```
 
-3. Start o container da linguagem de programação Python
+4. Start o container da linguagem de programação Python
 
 ```sh
 $ make start-python
