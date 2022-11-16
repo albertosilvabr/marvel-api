@@ -24,7 +24,7 @@ para buscar e processar os dados requisitados
 ### Desenho arquitetural da solução
 
 <div align="center">
-        <img src="https://user-images.githubusercontent.com/16995695/202265554-68bf7472-cb68-4ec6-8a35-776e38a1e67d.png" />
+        <img src="https://user-images.githubusercontent.com/16995695/202268731-9e19238e-3313-4835-b2c7-d9bc54940a22.png" />
 </div>
 
 
