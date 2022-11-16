@@ -4,6 +4,7 @@
 
 - [Objetivo](https://github.com/albertosilvabr/marvel-api#objetivo)
 - [Contexto da solução](https://github.com/albertosilvabr/marvel-api#contexto-da-solu%C3%A7%C3%A3o)
+- [Desenho arquitetural da solução](https://github.com/albertosilvabr/marvel-api/edit/main/README.md#desenho-arquitetural-da-solu%C3%A7%C3%A3o)
 - [Pré-requisitos](https://github.com/albertosilvabr/marvel-api#pr%C3%A9-requisitos)
 - [Passos para subir os serviços necessários para o teste](https://github.com/albertosilvabr/marvel-api#passos-para-subir-os-servi%C3%A7os-necess%C3%A1rios-para-o-teste)
 
@@ -19,6 +20,11 @@ Consiste em criar dois serviços em Docker:
 - Container da linguagem de programação Python para conectar com API 
 para buscar e processar os dados requisitados
 - Container do banco de dados MySQL para salvar os dados processados
+
+### Desenho arquitetural da solução
+
+![arquitetura](https://user-images.githubusercontent.com/16995695/202263435-dd776e2f-06f4-4b81-96fd-dc3f477895c0.png)
+
 
 ### Pré-requisitos
 
