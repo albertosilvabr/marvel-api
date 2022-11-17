@@ -9,6 +9,6 @@ services:
       - 3306:3306
     environment:
       MYSQL_ROOT_PASSWORD: rootpass
-      MYSQL_DATABASE: marveldb
-      MYSQL_USER: marvel
-      MYSQL_PASSWORD: marvelpass   
+      MYSQL_DATABASE: khong
+      MYSQL_USER: khong
+      MYSQL_PASSWORD: khongpass   
