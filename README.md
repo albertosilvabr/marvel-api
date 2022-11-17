@@ -100,6 +100,16 @@ Enter password:
 - Lista os bancos de dados
 ```sh
 mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| marveldb           |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.00 sec)
 ```
 
 - Seleciona o banco de dados **marveldb**
