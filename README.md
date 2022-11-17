@@ -102,9 +102,9 @@ Enter password:
 mysql> show databases;
 ```
 
-- Seleciona o banco de dados **khong**
+- Seleciona o banco de dados **marveldb**
 ```sh
-mysql> USE khong;
+mysql> USE marveldb;
 ```
 
 - Consultando os dados da tabela Characters;
