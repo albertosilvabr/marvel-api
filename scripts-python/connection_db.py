@@ -1,8 +1,8 @@
 import mysql.connector
 
 class accessDB():
-    def __init__(self, host='192.168.1.102', database='khong',
-                 user='khong', password='khongpass'):
+    def __init__(self, host='192.168.1.102', database='marveldb',
+                 user='marvel', password='marvelpass'):
         
         self.host     = host
         self.database = database
