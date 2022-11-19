@@ -91,7 +91,7 @@ Processo finalizado com sucesso!
 
 3. Consultando os dados salvosdas tabelas criadas no banco MySQL através do CLI
 
-- Acessa o MySQL CLI
+- Acessando o MySQL CLI
 ```sh
 $ make mysql-cli 
 ```
@@ -102,7 +102,7 @@ bash-4.4# mysql -u root -p
 Enter password:
 ```
 
-- Lista os bancos de dados
+- Listando os bancos de dados
 ```sh
 mysql> show databases;
 +--------------------+
@@ -117,7 +117,7 @@ mysql> show databases;
 5 rows in set (0.00 sec)
 ```
 
-- Seleciona o banco de dados **marveldb**
+- Selecionando o banco de dados **marveldb**
 ```sh
 mysql> USE marveldb;
 ```
