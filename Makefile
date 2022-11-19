@@ -4,5 +4,5 @@ start-services:
 get-data-marvel-api:
 	docker-compose exec python bash -c "python marvel_api.py"
 
-mysql-query-cli:
+mysql-cli:
 	docker exec -it mysql bash

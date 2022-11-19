@@ -93,7 +93,7 @@ Processo finalizado com sucesso!
 
 - Acessa o container do banco MySQL
 ```sh
-$ make mysql-query-cli 
+$ make mysql-cli 
 ```
 
 - Login para executar query via linha de comando, informe este password **rootpass** quando solicitado 
