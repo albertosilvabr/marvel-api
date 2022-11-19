@@ -42,21 +42,26 @@ para buscar e processar os dados requisitados
 $ git clone https://github.com/albertosilvabr/marvel-api.git
 ```
 
-2. Start o container do banco de dados MySQL
+2. Iniciando os serviçes do MySQL e Python
 
 ```sh
 $ cd marvel-api
-$ make start-mysql
+$ make start-services
 ```
-3. Build da imagem contendo a linguagem de programação Python
+3. Check se os serviços foram iniciandos
 ```sh
-$ make build-python
+$ docker ps
+
+output:
+CONTAINER ID   IMAGE               COMMAND                  CREATED          STATUS      PORTS                   NAMES
+d772b479a064   marvel-api_python   "python3"                14 minutes ago   Up 14 min.                          python
+f6f37f692661   mysql:latest        "docker-entrypoint.s…"   14 minutes ago   Up 14 min.  0.0.0.0:3306->3306/tcp  mysql
 ```
 
-4. Start o container da linguagem de programação Python
+4. Buscar os dados de Characters e Comics  
 
 ```sh
-$ make start-python
+$ make get-data-marvel-api
 ```
 
 Neste passo será solicitado a public key e private key necessárias para requisitar os dados via API. Veja como consegui-las em: (https://developer.marvel.com/account)

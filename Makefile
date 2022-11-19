@@ -1,11 +1,8 @@
-start-mysql:
+start-services:
 	docker-compose up -d
 
-build-python:
-	docker build -t env-python .
-        
-start-python:
-	docker run -it --rm  env-python
+get-data-marvel-api:
+	docker-compose exec python bash -c "python marvel_api.py"
 
 mysql-query-cli:
-	docker exec -it marvel-api_db_1 bash	
+	docker exec -it mysql bash
