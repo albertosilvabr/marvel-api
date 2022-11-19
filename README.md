@@ -89,9 +89,9 @@ Step 4: Criando a tabela OBT
 Processo finalizado com sucesso!
 ```
 
-3. Consultando os dados salvosdas tabelas criadas no banco MySQL através do MySQL CLI
+3. Consultando os dados salvosdas tabelas criadas no banco MySQL através do CLI
 
-- Acessa o container do banco MySQL
+- Acessa o MySQL CLI
 ```sh
 $ make mysql-cli 
 ```
