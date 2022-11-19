@@ -1,4 +1,4 @@
-## Prática com a API da Marvel.
+## Coleta de dados com a API da Marvel.
 
 ### Tópicos
 
