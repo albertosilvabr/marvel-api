@@ -19,7 +19,7 @@ Utilizar a API da Marvel para buscar todos os Comics e Characters.
 Consiste em criar dois serviços em Docker:
 
 - Container da linguagem de programação Python para conectar com API 
-para buscar e processar os dados requisitados
+para buscar, processar e salvar os dados requisitados
 - Container do banco de dados MySQL para salvar os dados processados
 
 ### Desenho arquitetural da solução
