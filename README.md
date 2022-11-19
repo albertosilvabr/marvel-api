@@ -1,4 +1,5 @@
 ## Coleta de dados com a API da Marvel.
+![GitHub](https://img.shields.io/github/license/albertosilvabr/marvel-api)
 
 ### Tópicos
 
