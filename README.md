@@ -24,7 +24,7 @@ para buscar e processar os dados requisitados
 ### Desenho arquitetural da solução
 
 <div align="center">
-        <img src="https://user-images.githubusercontent.com/16995695/202268731-9e19238e-3313-4835-b2c7-d9bc54940a22.png" />
+        <img src="https://user-images.githubusercontent.com/16995695/202827451-febbd954-b8c8-499a-a80f-b4fabe330f9d.png" />
 </div>
 
 
@@ -89,7 +89,7 @@ Step 4: Criando a tabela OBT
 Processo finalizado com sucesso!
 ```
 
-3. Consultando os dados das tabelas criadas no banco MySQL
+3. Consultando os dados salvosdas tabelas criadas no banco MySQL através do MySQL CLI
 
 - Acessa o container do banco MySQL
 ```sh
