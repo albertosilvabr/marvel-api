@@ -36,10 +36,10 @@ para buscar e processar os dados requisitados
 
 ### Passos para subir os serviços necessários para o teste
 
-1. Clonando o repositório
+1. Clonando o repositório por SSH
 
 ```sh
-$ git clone https://github.com/albertosilvabr/marvel-api.git
+$ git clone git@github.com:albertosilvabr/marvel-api.git
 ```
 
 2. Iniciando os serviçes do MySQL e Python
@@ -58,7 +58,7 @@ d772b479a064   marvel-api_python   "python3"                14 minutes ago   Up 
 f6f37f692661   mysql:latest        "docker-entrypoint.s…"   14 minutes ago   Up 14 min.  0.0.0.0:3306->3306/tcp  mysql
 ```
 
-4. Buscar os dados de Characters e Comics  
+4. Buscando os dados de Characters e Comics  
 
 ```sh
 $ make get-data-marvel-api
